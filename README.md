@@ -1,2 +1,2 @@
 # lexxxz.github.io
-Personal website
+Personal website https://lexxxz.github.io/
