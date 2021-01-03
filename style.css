@@ -1,0 +1,141 @@
+body, h1, h2, h3, h4, p, a {
+    font-weight: normal;
+  }
+  
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 0;
+}
+
+.content {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #282825;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #282825;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.9) 100%),
+        url(/img/mountain.JPG);
+    background-size: cover;
+    background-position: center;
+} 
+
+.experience {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.9) 100%),
+        url(/img/forest.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.9) 100%),
+        url(/img/forest2.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.background div:before {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+.contacts {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.9) 100%),
+        url(/img/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.nav {
+    padding-top: 30px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.nav ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+li.nav-item {
+    list-style: none;
+    padding: 0 5px;
+}
+
+a.nav-link {
+    text-decoration: none;
+}
+
+.menu {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #282825;
+}
+
+.title {
+    margin: 250px auto;
+    text-align: center;
+}
+
+.button {
+    background: rgba(196, 196, 196, 0.3);
+    backdrop-filter: blur(64px);
+    border-radius: 14px;
+    margin: 250px auto 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.stub {
+    padding: 200px;
+}
