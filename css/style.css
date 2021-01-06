@@ -10,7 +10,6 @@ body, h1, h2, h3, h4, p, a {
 
 body {
     font-family: 'Arsenal', sans-serif;
-    font-size: 0;
 }
 
 .content {
@@ -42,6 +41,16 @@ h2 {
     text-transform: uppercase;
 
     color: #282825;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .white {
@@ -152,4 +161,25 @@ a.nav-link {
 .stub {
     margin-top: 30%;
     text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.card {
+    background: rgba(196, 196, 196, 0.3);
+    backdrop-filter: blur(2px);
+    border-radius: 14px;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 350px;
+    margin: 15px;
+}
+
+.card > ul > li {
+    padding: 10px 0;
+    list-style-type: none;
 }
