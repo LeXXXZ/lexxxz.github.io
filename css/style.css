@@ -108,6 +108,7 @@ section {
 
 .nav ul {
     display: flex;
+    flex-flow: wrap;
 }
 
 li.nav-item {
@@ -162,6 +163,7 @@ a.nav-link {
 .cards {
     display: flex;
     justify-content: space-between;
+    flex-flow: wrap;
 }
 
 .card {
@@ -170,12 +172,12 @@ a.nav-link {
     border-radius: 14px;
     text-align: center;
     flex-wrap: wrap;
-    min-width: min-content;
+    width: 24em;
     margin: 1em;
 }
 
 .card > ul > li {
-    padding: 1em .3em;
+    padding: 1em 0.3em;
     list-style-type: none;
 }
 
