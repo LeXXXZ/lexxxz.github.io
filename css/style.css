@@ -66,32 +66,38 @@ h2 {
 section {
     height: 100vh;
     width: 100%;
-    background-size: cover;
-    background-position: center;
 }
 
 .header {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
         rgba(255, 255, 255, 0.9) 100%),
         url(/img/mountain.JPG);
+        background-size: cover;
+        background-position: center;
 } 
 
 .experience {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0) 100%),
         url(/img/forest.jpg);
+        background-size: cover;
+        background-position: center;
 } 
 
 .background {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
         rgba(255, 255, 255, 0.9) 100%),
         url(/img/forest2.jpg);
+        background-size: cover;
+        background-position: center;
 } 
 
 .contacts {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0) 100%),
         url(/img/sunset.jpg);
+        background-size: cover;
+        background-position: center;
 } 
 
 .nav {
