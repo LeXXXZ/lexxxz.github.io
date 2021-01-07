@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, p, a {
 
 body {
     font-family: 'Arsenal', sans-serif;
-    font-size: 30px;
+    font-size: 12px;
 }
 
 .content {
@@ -32,7 +32,7 @@ body {
 h1 {
     font-style: normal;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 4em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 
@@ -42,7 +42,7 @@ h1 {
 h2 {
     font-style: normal;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
 
@@ -51,12 +51,12 @@ h2 {
 
 .italic {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .bold {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .white {
@@ -101,7 +101,7 @@ section {
 } 
 
 .nav {
-    padding-top: 1rem;
+    padding-top: 1em;
     display: flex; 
     justify-content: flex-end;
 }
@@ -119,8 +119,12 @@ a.nav-link {
     text-decoration: none;
 }
 
+.nav-item:hover {
+    border-bottom: 2px solid #282825;
+}
+
 .menu {
-    font-size: 2rem;
+    font-size: 2em;
     text-transform: uppercase;
     color: #282825;
 }
@@ -131,11 +135,11 @@ a.nav-link {
 
 .page-title {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1em;
 }
 
 .bottom-button {
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
     margin: 0 auto;
 }
 
@@ -147,18 +151,12 @@ a.nav-link {
     text-decoration: none;
     text-align: center;
     width: max-content;
-    padding: 0 1rem;
+    padding: 0 1em;
 }
 
-.footer {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-}
-
-.stub {
-    margin-top: 30%;
-    text-align: center;
+.button:hover {
+    background: rgba(196, 196, 196, 0.6);
+    transition-duration: 500ms;
 }
 
 .cards {
@@ -178,7 +176,7 @@ a.nav-link {
 }
 
 .card > ul > li {
-    padding: 10px 0;
+    padding: 1em .3em;
     list-style-type: none;
 }
 
@@ -206,4 +204,24 @@ a.nav-link {
 .photo-card > ul > li > a {
     text-decoration: none;
     color: #282825;
+}
+
+.photo-card > ul > li:hover {
+    border-bottom: 3px solid #282825;
+}
+
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.footer > p > a {
+    text-decoration: none;
+    color: #282825;
+}
+
+.footer > p > a:hover {
+    border-bottom: 2px solid #282825;
 }
