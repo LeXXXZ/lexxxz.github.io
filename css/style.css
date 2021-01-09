@@ -191,11 +191,13 @@ a.nav-link {
 .photo-card {
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
 }
 
 .photo-card > img {
     width: 200px;
-    border: 1px solid #000000;
+    border: 1px solid rgba(50, 50, 50, .4);
+    box-shadow: 4px 4px 5px rgba(50, 50, 50, .4);
     border-radius: 14px;
 }
 
