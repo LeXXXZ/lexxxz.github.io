@@ -184,8 +184,8 @@ a.nav-link {
 }
 
 .skills {
-    text-align: center;
     font-size: 3em;
+    min-height: 6em;
 }
 
 .photo-card {
