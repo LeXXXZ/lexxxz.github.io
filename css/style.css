@@ -71,7 +71,7 @@ section {
 .header {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
         rgba(255, 255, 255, 0.9) 100%),
-        url(/img/mountain.JPG);
+        url(../img/mountain.JPG);
         background-size: cover;
         background-position: center;
 } 
@@ -79,7 +79,7 @@ section {
 .experience {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0) 100%),
-        url(/img/forest.jpg);
+        url(../img/forest.jpg);
         background-size: cover;
         background-position: center;
 } 
@@ -87,7 +87,7 @@ section {
 .background {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
         rgba(255, 255, 255, 0.9) 100%),
-        url(/img/forest2.jpg);
+        url(../img/forest2.jpg);
         background-size: cover;
         background-position: center;
 } 
@@ -95,7 +95,7 @@ section {
 .contacts {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0) 100%),
-        url(/img/sunset.jpg);
+        url(../img/sunset.jpg);
         background-size: cover;
         background-position: center;
 } 
