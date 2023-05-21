@@ -19,7 +19,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
