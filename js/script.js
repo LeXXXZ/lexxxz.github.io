@@ -25,3 +25,5 @@ typedHardSkills.strings = hardSkills;
 
 var typedSkills = new Typed('.skill-update', typedOptions);
 typedSkills.strings = skills;
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
